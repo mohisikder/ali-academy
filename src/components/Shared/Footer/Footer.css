@@ -1,32 +1,32 @@
-.footer-section{
-    background: #07d475;
-    color: white;
-    background-blend-mode: soft-light;
-    padding: 70px 0;
+.footer-section {
+  background: #111;
+  color: white;
+  background-blend-mode: soft-light;
+  padding: 70px 0;
 }
-.important-link ul li{
-    list-style: none;
+.important-link ul li {
+  list-style: none;
 }
-.important-link ul li a{
-    text-decoration: none;
-    color: #fff;
-    transition: all 0.3s ease-in-out;
+.important-link ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }
-.important-link ul li a:hover{
-    text-decoration: underline;
+.important-link ul li a:hover {
+  text-decoration: underline;
 }
-.footer-bottom{
-    background: #06b865;
-    color: white;
+.footer-bottom {
+  background: #050505;
+  color: white;
 }
-.footer-bottom a{
-    text-decoration: none;
-    color: #661aad;
-    margin-left: 5px;
+.footer-bottom a {
+  text-decoration: none;
+  color: #661aad;
+  margin-left: 5px;
 }
 
 @media only screen and (max-width: 600px) {
-    .footer-title {
-      margin-top: 30px;
-    }
+  .footer-title {
+    margin-top: 30px;
   }
+}
