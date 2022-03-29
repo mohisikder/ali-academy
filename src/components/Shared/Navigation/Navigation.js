@@ -1,13 +1,7 @@
 import React from "react";
 import "./Navigation.css";
 import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
-import {
-  FaPhone,
-  FaFacebookSquare,
-  FaInstagramSquare,
-  FaTwitterSquare,
-  FaEnvelope,
-} from "react-icons/fa";
+import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Navigation = () => {
   return (
