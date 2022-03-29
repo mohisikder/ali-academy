@@ -1,0 +1,39 @@
+.course__categories {
+  padding-top: 120px;
+}
+
+.courses__info {
+  position: relative;
+  overflow: hidden;
+}
+.courses__info .courses__title h4 {
+  position: absolute;
+  top: 45%;
+  left: 23%;
+  color: white;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+.courses__info .courses__title h4:hover {
+  color: #ffc300;
+  cursor: pointer;
+}
+
+.courses__info .courses__img img {
+  opacity: 0.7;
+  width: 170px;
+  transition: all 0.3s ease-in-out;
+}
+
+.courses__info:hover img {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .course__categories {
+    padding-top: 80px;
+  }
+}

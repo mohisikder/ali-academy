@@ -1,0 +1,91 @@
+.courses__section {
+  padding: 80px 0;
+  margin-top: 50px;
+
+  background: rgba(247, 247, 247, 0.541);
+}
+
+.section__title h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.underline {
+  width: 50px;
+  background-color: black;
+  height: 1px;
+  margin-bottom: 50px;
+}
+.course__info {
+  overflow: hidden;
+}
+.course__img img {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.course__img:hover img {
+  transform: scale(1.1);
+}
+.course__details {
+  opacity: 0;
+}
+.course__img:hover .course__details {
+  opacity: 1;
+}
+.author img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px dotted #ffd300;
+  background: #000;
+  position: absolute;
+  bottom: 55%;
+  left: 43%;
+}
+
+.card-body a {
+  color: #000;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.card-body a:hover {
+  color: #ffd300;
+}
+
+.card__border {
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+  background: #cacaca;
+}
+.course__item {
+  margin-bottom: 30px;
+}
+.card__border__middle {
+  width: 20%;
+  height: 2px;
+  margin: 0 auto;
+  background: #ffc300;
+}
+.course__buy {
+  margin-top: 15px;
+}
+.btn.btn-primary {
+  color: #fff;
+  background-color: #ffd300;
+  border-color: #ffd300;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+.btn.btn-primary:hover {
+  opacity: 1;
+  background-color: #ffd300;
+  border-color: #ffd300;
+}
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .author img {
+    top: 45%;
+  }
+}

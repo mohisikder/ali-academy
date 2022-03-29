@@ -63,3 +63,23 @@
   font-size: 0.85rem;
   text-transform: uppercase;
 }
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .header__section {
+    height: 90vh;
+  }
+  .header__title h1 {
+    font-size: 2rem;
+  }
+  .header__title h1 .title {
+    font-size: 1rem;
+  }
+  .header__info .btn {
+    margin: 20px 0;
+    padding: 8px 25px;
+  }
+  .buy__early__form {
+    padding: 3rem 1.5rem;
+  }
+}
