@@ -18,7 +18,9 @@ const Footer = () => {
           <Row>
             <Col md={4} xm={12}>
               <div className="footer-info">
-                <h2 className="mb-4">Intementor</h2>
+                <h2 className="mb-4">
+                  Ali-<span className="logo__color">Academy</span>
+                </h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Officiis illum nihil distinctio iusto expedita? Voluptatibus
@@ -49,10 +51,10 @@ const Footer = () => {
                     <a href="#">About</a>
                   </li>
                   <li>
-                    <a href="#">Services</a>
+                    <a href="#">Popular Course</a>
                   </li>
                   <li>
-                    <a href="#">Projects</a>
+                    <a href="#">Contact</a>
                   </li>
                 </ul>
               </div>

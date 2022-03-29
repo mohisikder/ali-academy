@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./CourseCategories.css";
 
-import FrontEnd from "./../../assets/images/bg-1.jpg";
+import FrontEnd from "./../../../assets/images/bg-1.jpg";
 
 const CourseCategories = () => {
   return (

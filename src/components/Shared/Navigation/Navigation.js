@@ -2,6 +2,7 @@ import React from "react";
 import "./Navigation.css";
 import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -23,7 +24,9 @@ const Navigation = () => {
                   </p>
                 </div>
                 <div className="login">
-                  <Button>Login</Button>
+                  <Nav className="btn btn-primary">
+                    <Link to="/login">Login</Link>
+                  </Nav>
                 </div>
               </div>
             </Col>
